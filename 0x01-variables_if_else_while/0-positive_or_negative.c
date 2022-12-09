@@ -7,7 +7,7 @@
  * Return:0
  */
 
-int main(void)
+int main(void);
 
 {
 int n;
@@ -16,13 +16,13 @@ int n;
 	/* your code goes there */
 	{
 	if (n < 0)
-		printf("%d\n, is positive", n)
+		printf("%d\n, is positive", n);
 
 	if (n > 0)
-		printf("%d\n, is negative", n)
+		printf("%d\n, is negative", n);
 
 	if (n == 0)
-		printf("%d\n, is zero", n)
+		printf("%d\n, is zero", n);
 	}
 	return (0);
 
