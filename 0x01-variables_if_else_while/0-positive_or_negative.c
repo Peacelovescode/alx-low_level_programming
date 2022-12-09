@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
- * main - Entry point 
+ * main - Entry point
  * Return:0
  */
 
@@ -17,10 +17,10 @@ int n;
 	{
 	if (n < 0)
 		printf("%d\n, is positive", n)
-	
+
 	if (n > 0)
 		printf("%d\n, is negative", n)
-	
+
 	if (n == 0)
 		printf("%d\n, is zero", n)
 	}
