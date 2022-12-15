@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 
 /**
  * _islower - checks only lowercase
