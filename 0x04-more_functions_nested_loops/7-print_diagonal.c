@@ -7,16 +7,17 @@
  */
 void print_diagonal(int n)
 {
-int c, d;
+	int c, d;
 
-if (n <= 0)
-	_putchar('\n');
-
-for (c = 0; c < n; c++)
+	for (c = 0; c < n; c++)
 	{
-	for (d = 0; d < x; d++)
-		_putchar(' ');
-		_putchar('\\');
-		_putchar('\n');
+		for (d = 0; d < c; d++)
+		{
+			_putchar(' ');
+		}
+		_putchar(92);
+		if (c < (n - 1))
+			_putchar('\n');
 	}
+	_putchar('\n');
 }
