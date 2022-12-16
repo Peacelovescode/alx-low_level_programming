@@ -2,12 +2,12 @@
 
 /**
  *_isupper - checks if parameter is an uppercase character
- * @v: input character
+ * @c: input character
  * Return: 1 if uppercase and 0 otherwise
  */
-int _isupper(int v)
+int _isupper(int c)
 {
-	if (v >= 65 && v <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
