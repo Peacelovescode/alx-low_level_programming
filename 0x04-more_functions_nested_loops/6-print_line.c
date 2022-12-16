@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line - prints a line 
+ * print_line - prints a line
  * @n: number of times
  *
  * Return: void
