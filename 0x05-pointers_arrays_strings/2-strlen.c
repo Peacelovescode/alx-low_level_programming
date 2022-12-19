@@ -2,7 +2,7 @@
 
 
 /**
- * int _strlen - calculate the length of a string
+ * int_strlen - calculate the length of a string
  * @s: is a character
  * Return: length
  */
@@ -14,9 +14,9 @@ int _strlen(char *s)
 
 	while (*s != '\0')
 	{
-		len ++;
+		len++;
 		s++;
 	}
-	
+
 	return (len);
 }
