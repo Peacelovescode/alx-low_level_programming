@@ -1,4 +1,5 @@
-#include "main."
+#include "main.h"
+
 /**
 * factorial - process the factorial of a given integer
 * @n: the integer to find its factorial
